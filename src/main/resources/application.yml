@@ -1,0 +1,22 @@
+
+designa:
+  results:
+    - /Users/pwaibel/Documents/work/designa/lpr_NY/lpr_99.csv
+    - /Users/pwaibel/Documents/work/designa/lpr_NY/lpr_70_to_72.csv
+    - /Users/pwaibel/Documents/work/designa/lpr_NY/lpr_30.csv
+    - /Users/pwaibel/Documents/work/designa/lpr_NY/lpr_unkown.csv
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      jadira:
+        usertype:
+          autoRegisterUserTypes: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/licence_plate_recognition?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: piwa
+    password: piwa123
+
